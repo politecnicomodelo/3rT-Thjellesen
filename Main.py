@@ -24,6 +24,9 @@ while True:
                           "5 - Add Continent\n"
                           "6 - Exit\n")
 
+            if Input == "1":
+                List.InsertNeighbourhood()
+
     elif Input == "2":
         while True:
             Input = input("1 - Delete Neighborhood\n"
